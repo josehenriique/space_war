@@ -7,20 +7,63 @@
 
   <link rel="stylesheet" href="./style.css">
 
-  <title>Sem internet</title>
+  <title>Space Wars</title>
 </head>
 <body>
+
+  <div class="score">
+    <h2>PONTUAÇÃO: <span id="score">000</span></h2>
+  </div>
+
   <main class="arena">
+
+    <img src="./assets/bg-universe.gif" alt="bg" id="gif-bg-2" class="bg">
+    <img src="./assets/bg-universe.gif" alt="bg" id="gif-bg-1" class="bg">
+
     <div class="player">
       <img src="./assets/player.png" alt="">
     </div>
+
+
     <div class="obstacles">
+
+      <div class="column" data-order="1"></div>
+
+      <div class="column" data-order="2"></div>
+
+      <div class="column" data-order="3"></div>
+ 
+      <div class="column" data-order="4"></div>
+ 
+      <div class="column" data-order="5"></div>
+ 
+      <div class="column" data-order="6"></div>
+ 
+      <div class="column" data-order="7"></div>
+
+      <div class="column" data-order="8"></div>
+
+      <div class="column" data-order="9"></div>
+
+      <div class="column" data-order="10"></div>
+
+      <div class="column" data-order="11"></div>
+  
+      <div class="column" data-order="12"></div>
+  
+      <div class="column" data-order="13"></div>
+  
+      <div class="column" data-order="14"></div>
+  
+      <div class="column" data-order="15"></div>
+  
     </div>
 
-    <button class="play">START/STOP</button>
   </main>
   
+  <button class="play">START/STOP</button>
+
   <script src="./script.js"></script>
-  <!-- <script src="teste.js"></script> -->
+  <script src="./animation.js"></script>
 </body>
 </html>
